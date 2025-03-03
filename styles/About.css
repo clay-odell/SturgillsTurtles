@@ -1,0 +1,11 @@
+h1.about-h1 {
+    margin-top: 50px;
+}
+p.about {
+    text-align: justify;
+    margin: 50px;
+}
+
+a.navbar-brand {
+    padding: 0;
+}

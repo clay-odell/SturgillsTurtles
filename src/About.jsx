@@ -1,8 +1,9 @@
+import "../styles/About.css";
 const About = () => {
   return (
     <>
-      <h1>About</h1>
-      <p>
+      <h1 className="about-h1">About</h1>
+      <p className="about">
         <strong>Sturgill's Turtles</strong> is a rock and roll cover band based
         out of Huntsville, Alabama. Made up of members Matt Michael, Gus
         Hergert, and Clay O'Dell, Sturgill's band took their name from the

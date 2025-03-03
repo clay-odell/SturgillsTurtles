@@ -1,0 +1,49 @@
+img#logo {
+    max-width: 150px;
+}
+nav#navbar {
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+div.container {
+    background-color: rgb(21, 21, 21);
+    
+}
+
+.nav-link {
+    margin-right: 25px;
+    border-radius: 5px;
+    padding: 12px;
+    color: rgb(228, 232, 235);
+}
+/* span.navbar-toggler-icon {
+    background-color: rgba(240, 248, 255, 0.742);
+} */
+button.navbar-toggler {
+    background-color: aliceblue;
+}
+/* Additional CSS to define alternate colors */
+.nav-link:nth-child(odd) {
+    background-color: rgba(5, 5, 5, 0.678); /* Change this to your desired color */
+}
+
+.nav-link:nth-child(even) {
+    background-color: rgba(80, 80, 80, 0.534); /* Change this to your desired color */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    
+    .nav-link {
+        margin-right: 0;
+        margin-bottom: 15px; /* Adjust as needed */
+    }
+}
